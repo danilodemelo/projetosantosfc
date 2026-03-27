@@ -49,7 +49,7 @@
 .section-01 {
     padding: 9rem 2rem;
 
-    background-image: url(imagens/Vila-Belmiro-Santos-eleicao-aspect-ratio-512-320\ -\ Editado.jpg);
+    background-image: url(imagens/vilabelmiro.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,7 +137,60 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 
+.div02 i {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px
+}
 
+.div-img {
+    padding: 50px;
+    background-image: url(imagens/fundo.png);
+    background-position: center;
+    background-size: cover; 
+}
+
+.section-02 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+padding: 5rem;
+background-color: white;
+flex: wrap;
+}
+
+.caixa {
+    width: 25%;
+    height: 22%;
+    background-color: white;
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+}
+
+.caixa:hover {
+    box-shadow: 12px 12px 22px black;
+    transition: 0.8s;
+}
+
+.section-03 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-03 {
+background-color: white;
+width: 25%;
+height: 22rem;
+
+}
 
 .rodape {
     height: 80px;
