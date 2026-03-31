@@ -152,6 +152,9 @@
     background-size: cover;
 }
 
+.section-02 {
+    background-image: ;
+}
 .section-02,
 .section-04 {
     display: flex;
@@ -232,10 +235,11 @@
 
 .rodape {
     background-color: black;
+    color: white;
     padding: 2rem;
     text-align: center;
     font-size: 1.1rem;
-    color: white;
+    height: 100%;
 }
 
 .content {
@@ -252,25 +256,35 @@
 }
 
 .redes i {
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 2em;
     margin: 0.5rem;
 }
 
 .line {
     width: 60%;
-    margin: 0.5rem;
-    background-color: rgb(0, 0, 0);
-    height: 2px;
+    margin: auto;
+    background-color: white;
+    height: 1px;
+    border: none;
 }
 
 .div-list ul li {
     margin-bottom: 0.7rem;
 }
 
-.div .div-list ul li a:hover {
+.div-list ul {
+    list-style: none;
+}
+
+.div-list ul li a {
+    text-decoration: none;
     color: white;
-    transition: 0, 8s;
+}
+
+.div-list ul li a:hover {
+    color: white;
+    transition: 0.3s;
 }
 
 @media (max-width: 600px) {
