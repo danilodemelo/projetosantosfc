@@ -374,6 +374,22 @@
     transition: 0.3s;
 }
 
+.section-04{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url("imagens/jovem.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 600px) {
     .content {
         flex-direction: column;
