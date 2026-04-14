@@ -207,7 +207,7 @@
     display: block;
 }
 
-/* caixas da section 2 */
+
 
 .section-02 .caixa {
     background-color: white;
@@ -222,8 +222,6 @@
 
     transition: 0.35s;
 }
-
-/* animação ao passar o mouse */
 
 .section-02 .caixa:hover {
     transform: translateY(-10px);
@@ -403,7 +401,7 @@
 }
 
 .slam p {
-    font-size: 17.8px;
+    font-size: 17px;
 }
 
 .brasilidade {
