@@ -1,33 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* facilita cálculo de largura */
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
   }
-  
+
   /* CORPO DA PÁGINA */
   body {
-    min-height: 100vh; /* ocupa a tela toda */
+    min-height: 100vh;
     display: flex;
-    align-items: center; /* centraliza vertical */
-    justify-content: center; /* centraliza horizontal */
-    background-image: url(imagens/cadastro.webp);
-    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/passwwallpaper.jpeg);
+
   }
-  
+
   /* CONTAINER PRINCIPAL */
   .container {
-    display: flex; /* deixa os filhos lado a lado */
+    display: flex;
     width: 90%;
-    max-width: 900px; /* limita largura */
+    max-width: 900px;
     background: white;
     border-radius: 10px;
-    overflow: hidden; /* evita vazamento de conteúdo */
+    overflow: hidden;
   }
-  
-  /* LADO ESQUERDO (TEXTO) */
+
+  /* LADO ESQUERDO (INFORMAÇÃO) */
   .left {
-    width: 50%; /* metade da tela */
+    width: 50%;
     background: black;
     color: white;
     padding: 30px;
@@ -35,49 +35,39 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .left h1 {
     margin-bottom: 10px;
   }
-  
+
   .left p {
     line-height: 1.5;
   }
-  
+
   /* LADO DIREITO (FORMULÁRIO) */
   .right {
-    width: 50%; /* metade da tela */
+    width: 50%;
     padding: 30px;
   }
-  
+
   .right h2 {
     text-align: center;
     margin-bottom: 20px;
-    color:black;
+    color: black;
   }
-  
-  /* CAMPOS DO FORMULÁRIO */
+
+  /* GRUPO DE INPUT */
   .form-group {
     margin-bottom: 15px;
   }
-  
+
   .form-group input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
-  /* LINHAS COM DOIS CAMPOS */
-  .row {
-    display: flex;
-    gap: 10px; /* espaço entre campos */
-  }
-  
-  .row .form-group {
-    width: 50%; /* divide em duas colunas */
-  }
-  
+
   /* BOTÃO */
   .btn {
     width: 100%;
@@ -87,45 +77,35 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.8s;
   }
-  
+
   .btn:hover {
-    background: #cacacd;
-    color: black;
-  
+    background: #555;
   }
-  
-  /* LINK */
+
+  /* LINKS */
   .links {
     text-align: center;
     margin-top: 10px;
   }
-  
+
   .links a {
-    color: black;
+    color: #171430;
     text-decoration: none;
   }
-  
+
   .links a:hover {
     text-decoration: underline;
   }
-  
+
   /* RESPONSIVIDADE */
   @media (max-width: 768px) {
     .container {
-      flex-direction: column; /* empilha no mobile */
+      flex-direction: column;
     }
-  
+
     .left, .right {
-      width: 100%; /* ocupa toda largura */
-    }
-  
-    .row {
-      flex-direction: column; /* campos ficam um embaixo do outro */
-    }
-  
-    .row .form-group {
       width: 100%;
     }
   }
